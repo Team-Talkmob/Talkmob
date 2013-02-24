@@ -1,3 +1,4 @@
+<table><tr><td><img src='./img/neko.jpg'></td><td><p class='balloon'>日曜のよるに夜更かしはまずいよ</p></td></tr></table>
 <table><tr><td><img src='./img/neko.jpg'></td><td><p class='balloon'>asdfaf</p></td></tr></table>
 <table><tr><td><img src='./img/neko.jpg' align='left'></td><td><p class='balloon'>asdfaf</p></td></tr></table>
 <table><tr><td><img src='./img/neko.jpg' align='left'></td><td><p class='balloon'>あいうえおかきくけこ<br />
