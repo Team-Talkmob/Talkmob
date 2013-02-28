@@ -2,9 +2,7 @@
 	<head>
 		<LINK REL="stylesheet" HREF="./css/main.css" TYPE="text/css">
 		<script type="text/javascript" src="./js/jquery.js" charset="shift_jis"></script>
-		<script type="text/javascript" src="./js/jquery.gridster.js" charset="shift_jis"></script>
 		<script type="text/javascript">
-
 		</script>
 	</head>
 	<body>
@@ -14,6 +12,9 @@
 	<p>Talk Mob</p>
 
 	<?php
+	//SESSION開始
+	session_start();
+
 	header('Content-Type: text/html; charset="UTF-8"');
 	if($_SERVER["REQUEST_METHOD"] == "POST"){
 		writeData();
@@ -48,7 +49,7 @@
 		$contents = nl2br($contents);
 
 		$data = "<table><tr>";
-		$data = $data."<td><img src='./img/neko.jpg'></td>";
+		$data = $data."<td><img src='https://api.twitter.com/1/users/profile_image?screen_name=".$_SESSION['screenName']."&size=bigger'></td>";
 		$data = $data."<td><p class='balloon'>".$contents."</p></td>";
 		$data = $data."</tr></table>".PHP_EOL; //PHP改行コード
 
@@ -83,7 +84,7 @@
 					</tr>
 					-->
 					<tr>
-						<td style="text-align:right;">コメント:</td>
+						<td style="text-align:right;"><img src='https://api.twitter.com/1/users/profile_image?screen_name=<?php echo $_SESSION['screenName'] ?>&size=bigger'></td>
 						<td>
 							<textarea name="contents" rows="2" cols="40"></textarea>
 							<input type="submit" name="btn1" value="送信">
@@ -92,6 +93,7 @@
 				</table>
 			</form>
 		</div>
+		<a href="./logout.php">ログアウトする</a>
 		<div id="end"></div>
 
 	</div>

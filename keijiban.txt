@@ -81,3 +81,9 @@ fasd<br />
 asfdafa<br />
 sdfasdfa<br />
 </p></td></tr></table>
+<table><tr><td><img src='https://api.twitter.com/1/users/profile_image?screen_name=&size=bigger'></td><td><p class='balloon'>asf</p></td></tr></table>
+<table><tr><td><img src='https://api.twitter.com/1/users/profile_image?screen_name=&size=bigger'></td><td><p class='balloon'>asfdasfdsaf</p></td></tr></table>
+<table><tr><td><img src='https://api.twitter.com/1/users/profile_image?screen_name=utchronica&size=bigger'></td><td><p class='balloon'>aur</p></td></tr></table>
+<table><tr><td><img src='https://api.twitter.com/1/users/profile_image?screen_name=utchronica&size=bigger'></td><td><p class='balloon'>にゃにゃーす！</p></td></tr></table>
+<table><tr><td><img src='https://api.twitter.com/1/users/profile_image?screen_name=meganehiroshi&size=bigger'></td><td><p class='balloon'>っしゃー！</p></td></tr></table>
+<table><tr><td><img src='https://api.twitter.com/1/users/profile_image?screen_name=meganehiroshi&size=bigger'></td><td><p class='balloon'>おっす！</p></td></tr></table>

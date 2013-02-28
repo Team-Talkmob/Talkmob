@@ -9,7 +9,7 @@
 		#header { padding:1px 0 ; }
 		#main {
 			margin:10 auto 10 auto;
-			width:523px;
+			width:623px;
 			padding:20px;
 			background-color:#C6E2EE;
 			border-right:1px solid #B6D2DE;
@@ -101,7 +101,6 @@
 		h3 a:visited { text-decoration:none; color:#663B12;}
 		h3 a:hover { text-decoration:underline; color:#663B12;}
 
-//=========== balloon -> 吹き出し =============//
 p.balloon {
 	position: relative;
 	background: #ffffff;
@@ -137,6 +136,5 @@ p.balloon:before {
 	top: 50%;
 	margin-top: -13px;
 }
-//==============================================//
 
 	</style>
