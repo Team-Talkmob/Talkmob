@@ -7,27 +7,27 @@ session_start();
 //同じディレクトリにファイルがある場合は以下でOKです。
 require_once("twitteroauth/twitteroauth.php");
 //Consumer keyの値をTwitterAPI開発者ページでご確認下さい。
-$consumerKey = "khq3qZqPdT7UczkRPR3Alw";
+$consumerKey = "xxxxxx";
 //Consumer secretの値を格納
-$consumerSecret = "1SgZKbNyOngUcJfWkki11J07fbR3UMN2Drkx8tdc";
+$consumerSecret = "xxxxx";
 
 
 //Access Tokenの値を格納
-$accessToken = "85602795-H2UHf5rpjTVd8k16jAz7zUuVShy2qrlWSSjZSm4BL";
+$accessToken = "xxxxxx";
 //Access Token Secretの値を格納
-$accessTokenSecret = "MxhqjftYmzpfiW1gkUBrOCJbVUIDG6zxPmxC0cBI";
+$accessTokenSecret = "xxxxxx";
 
 /*
  //------- local環境用 -----------//
 //取得した値をSESSIONに格納
-$_SESSION['oauthToken'] = 			"85602795-H2UHf5rpjTVd8k16jAz7zUuVShy2qrlWSSjZSm4BL";
-$_SESSION['oauthTokenSecret'] = 	"MxhqjftYmzpfiW1gkUBrOCJbVUIDG6zxPmxC0cBI";
-$_SESSION['userId'] = "85602795";
-$_SESSION['screenName'] = "meganehiroshi";
+$_SESSION['oauthToken'] = 			"xxxx";
+$_SESSION['oauthTokenSecret'] = 	"xxxxxxxx";
+$_SESSION['userId'] = "xxxxx";
+$_SESSION['screenName'] = "xxxxx";
 //------- local環境用 -----------//
 */
 $sCallBackUrl = "http://".$_SERVER["HTTP_HOST"]."/Team-Talkmob/callback.php";
-//	$sCallBackUrl = "http://ec2-54-248-166-204.ap-northeast-1.compute.amazonaws.com/chornica_test2/callback.php";
+//	$sCallBackUrl = "xxxx";
 
 
 			//OAuthオブジェクト生成
