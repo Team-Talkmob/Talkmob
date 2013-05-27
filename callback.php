@@ -8,7 +8,7 @@
 	//Consumer keyの値をTwitterAPI開発者ページでご確認下さい。
 	$sConsumerKey = "khq3qZqPdT7UczkRPR3Alw";
 	//Consumer secretの値を格納
-	$sConsumerSecret = "1SgZKbNyOngUcJfWkki11J07fbR3UMN2Drkx8tdc";
+	$sConsumerSecret = "xxxxxxxxx";
 
 	//URLパラメータからoauth_verifierを取得
 	if(isset($_GET['oauth_verifier']) && $_GET['oauth_verifier'] != ''){
